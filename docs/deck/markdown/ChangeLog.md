@@ -5734,3 +5734,14 @@
 - responsive_web_trends_ui_hide_news_sidebar_on_explore<br>
 #### remove<br>
 - None<br>
+## 2025/08/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_use_imagine_in_image_gen<br>
+#### remove<br>
+- web_video_player_size_cap_disabled<br>
