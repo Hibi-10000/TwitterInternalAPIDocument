@@ -28,107 +28,15 @@
     "method": "post"
   },
   {
-    "queryId": "oauth/authenticate_periscope",
-    "method": "get"
-  },
-  {
-    "queryId": "people_discovery/profile_follow",
-    "method": "get"
-  },
-  {
-    "queryId": "onboarding/bounce",
-    "method": "post"
-  },
-  {
-    "queryId": "collections/entries",
-    "method": "get"
-  },
-  {
-    "queryId": "mutes/conversations/create",
-    "method": "post"
-  },
-  {
-    "queryId": "mutes/conversations/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/retweet",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/unretweet",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/update",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/lookup",
-    "method": "get"
-  },
-  {
-    "queryId": "account/pin_tweet",
-    "method": "post"
-  },
-  {
-    "queryId": "account/unpin_tweet",
-    "method": "post"
-  },
-  {
-    "queryId": "media/media_tags/delete",
-    "method": "post"
-  },
-  {
-    "queryId": "friendships/create",
-    "method": "post"
-  },
-  {
-    "queryId": "friendships/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "friendships/cancel",
-    "method": "post"
-  },
-  {
-    "queryId": "blocks/create",
-    "method": "post"
-  },
-  {
-    "queryId": "blocks/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "mutes/users/create",
-    "method": "post"
-  },
-  {
-    "queryId": "mutes/users/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "users/lookup",
-    "method": "get"
-  },
-  {
-    "queryId": "users/email_phone_info",
-    "method": "get"
-  },
-  {
-    "queryId": "account/resend_confirmation_email",
-    "method": "post"
-  },
-  {
-    "queryId": "device/unregister",
-    "method": "post"
-  },
-  {
     "queryId": "dm/welcome_messages/add_to_conversation",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/conversation/bulk_delete",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/edit",
     "method": "post"
   },
   {
@@ -148,19 +56,7 @@
     "method": "post"
   },
   {
-    "queryId": "dm/new",
-    "method": "post"
-  },
-  {
     "queryId": "/dm/user/update_relationship_state",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/reaction/new",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/reaction/delete",
     "method": "post"
   },
   {
@@ -168,20 +64,20 @@
     "method": "get"
   },
   {
-    "queryId": "dm/destroy",
-    "method": "post"
+    "queryId": "dm/permissions/secret",
+    "method": "get"
   },
   {
     "queryId": "direct_messages/report_spam",
     "method": "post"
   },
   {
-    "queryId": "dm/update_last_seen_event_id",
+    "queryId": "dm/report",
     "method": "post"
   },
   {
-    "queryId": "help/languages",
-    "method": "get"
+    "queryId": "dm/update_last_seen_event_id",
+    "method": "post"
   },
   {
     "queryId": "friendships/incoming",
@@ -216,22 +112,6 @@
     "method": "post"
   },
   {
-    "queryId": "foundmedia/categories",
-    "method": "get"
-  },
-  {
-    "queryId": "foundmedia/search",
-    "method": "get"
-  },
-  {
-    "queryId": "rux/logged_out/segmentations",
-    "method": "get"
-  },
-  {
-    "queryId": "jot/client_event",
-    "method": "post"
-  },
-  {
     "queryId": "jot/error_log",
     "method": "post"
   },
@@ -240,71 +120,43 @@
     "method": "post"
   },
   {
-    "queryId": "lists/memberships",
+    "queryId": "onboarding/task",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/contacts_authorize",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/contacts_import_status",
     "method": "get"
   },
   {
-    "queryId": "live_pipeline/update_subscriptions",
-    "method": "post"
-  },
-  {
-    "queryId": "media/metadata/create",
-    "method": "post"
-  },
-  {
-    "queryId": "media/subtitles/create",
-    "method": "post"
-  },
-  {
-    "queryId": "moments/create",
-    "method": "post"
-  },
-  {
-    "queryId": "mutes/keywords/list",
+    "queryId": "onboarding/verification_status",
     "method": "get"
   },
   {
-    "queryId": "mutes/keywords/destroy",
+    "queryId": "onboarding/referrer",
     "method": "post"
   },
   {
-    "queryId": "mutes/keywords/update",
+    "queryId": "contacts/destroy/all",
     "method": "post"
   },
   {
-    "queryId": "account/personalization/twitter_interests",
-    "method": "get"
-  },
-  {
-    "queryId": "account/personalization/email_your_data",
+    "queryId": "onboarding/begin_verification",
     "method": "post"
   },
   {
-    "queryId": "account/personalization/set_optout_cookies",
-    "method": "get"
+    "queryId": "onboarding/verify",
+    "method": "post"
   },
   {
-    "queryId": "geo/places",
-    "method": "get"
+    "queryId": "onboarding/fetch_user_recommendations",
+    "method": "post"
   },
   {
     "queryId": "promoted_content/log",
-    "method": "post"
-  },
-  {
-    "queryId": "users/recommendations",
-    "method": "get"
-  },
-  {
-    "queryId": "report/flow",
-    "method": "post"
-  },
-  {
-    "queryId": "saved_searches/list",
-    "method": "get"
-  },
-  {
-    "queryId": "saved_searches/create",
     "method": "post"
   },
   {
@@ -349,10 +201,6 @@
   },
   {
     "queryId": "geo/delete_location_data",
-    "method": "post"
-  },
-  {
-    "queryId": "contacts/destroy/all",
     "method": "post"
   },
   {
@@ -408,6 +256,222 @@
     "method": "get"
   },
   {
+    "queryId": "friendships/create",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/cancel",
+    "method": "post"
+  },
+  {
+    "queryId": "blocks/create",
+    "method": "post"
+  },
+  {
+    "queryId": "blocks/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/users/create",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/users/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "users/lookup",
+    "method": "get"
+  },
+  {
+    "queryId": "users/email_phone_info",
+    "method": "get"
+  },
+  {
+    "queryId": "account/resend_confirmation_email",
+    "method": "post"
+  },
+  {
+    "queryId": "device/unregister",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/save",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/login",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/checkin",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/logout",
+    "method": "post"
+  },
+  {
+    "queryId": "help/settings",
+    "method": "get"
+  },
+  {
+    "queryId": "account/personalization/twitter_interests",
+    "method": "get"
+  },
+  {
+    "queryId": "account/personalization/email_your_data",
+    "method": "post"
+  },
+  {
+    "queryId": "account/personalization/set_optout_cookies",
+    "method": "get"
+  },
+  {
+    "queryId": "people_discovery/profile_follow",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/bounce",
+    "method": "post"
+  },
+  {
+    "queryId": "collections/entries",
+    "method": "get"
+  },
+  {
+    "queryId": "mutes/conversations/create",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/conversations/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/retweet",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/unretweet",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/update",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/lookup",
+    "method": "get"
+  },
+  {
+    "queryId": "account/pin_tweet",
+    "method": "post"
+  },
+  {
+    "queryId": "account/unpin_tweet",
+    "method": "post"
+  },
+  {
+    "queryId": "media/media_tags/delete",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/new",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/reaction/new",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/reaction/delete",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "help/languages",
+    "method": "get"
+  },
+  {
+    "queryId": "foundmedia/categories",
+    "method": "get"
+  },
+  {
+    "queryId": "foundmedia/search",
+    "method": "get"
+  },
+  {
+    "queryId": "rux/logged_out/segmentations",
+    "method": "get"
+  },
+  {
+    "queryId": "jot/client_event",
+    "method": "post"
+  },
+  {
+    "queryId": "lists/memberships",
+    "method": "get"
+  },
+  {
+    "queryId": "live_pipeline/update_subscriptions",
+    "method": "post"
+  },
+  {
+    "queryId": "media/metadata/create",
+    "method": "post"
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "method": "post"
+  },
+  {
+    "queryId": "moments/create",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/keywords/list",
+    "method": "get"
+  },
+  {
+    "queryId": "mutes/keywords/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/keywords/update",
+    "method": "post"
+  },
+  {
+    "queryId": "geo/places",
+    "method": "get"
+  },
+  {
+    "queryId": "users/recommendations",
+    "method": "get"
+  },
+  {
+    "queryId": "report/flow",
+    "method": "post"
+  },
+  {
+    "queryId": "saved_searches/list",
+    "method": "get"
+  },
+  {
+    "queryId": "saved_searches/create",
+    "method": "post"
+  },
+  {
     "queryId": "account/password_strength",
     "method": "post"
   },
@@ -438,54 +502,6 @@
   {
     "queryId": "contacts/addressbook",
     "method": "get"
-  },
-  {
-    "queryId": "notifications/settings/save",
-    "method": "post"
-  },
-  {
-    "queryId": "notifications/settings/login",
-    "method": "post"
-  },
-  {
-    "queryId": "notifications/settings/checkin",
-    "method": "post"
-  },
-  {
-    "queryId": "notifications/settings/logout",
-    "method": "post"
-  },
-  {
-    "queryId": "onboarding/task",
-    "method": "post"
-  },
-  {
-    "queryId": "onboarding/contacts_authorize",
-    "method": "post"
-  },
-  {
-    "queryId": "onboarding/contacts_import_status",
-    "method": "get"
-  },
-  {
-    "queryId": "onboarding/verification_status",
-    "method": "get"
-  },
-  {
-    "queryId": "onboarding/referrer",
-    "method": "post"
-  },
-  {
-    "queryId": "onboarding/begin_verification",
-    "method": "post"
-  },
-  {
-    "queryId": "onboarding/verify",
-    "method": "post"
-  },
-  {
-    "queryId": "onboarding/fetch_user_recommendations",
-    "method": "post"
   },
   {
     "queryId": "account/user_twitter_data",
