@@ -2,11 +2,12 @@ import re
 
 
 def get_i18n(i18n_response: str):
-    reg_script = '{name}\("{id}",({fn}|"{any}")\)'.format(
+    reg_script = '{name}\("{id}",({fn}|{quote}{any}{quote})\)'.format(
+        quote="[\"']",
         name="([a-z])",
         id="([a-z0-9]{8})",
         any="([\s\S]*?)",
-        fn="\(function\(e\){return([\s\S]*?)}\)",
+        fn="\(function\([aent]\){return([\s\S]*?)}\)",
     )
 
     return {
@@ -19,24 +20,24 @@ def get_i18n(i18n_response: str):
 
 def i18n_format(script):
     output = re.sub(
-        "{join_first}{name}\(e\.{placeholder},{any}\){join_last}".format(
-            join_first="((\"|')\+)?",
-            join_last="(\+(\"|'))?",
+        "{join_first}{name}\([aent]\.{placeholder},{any}\)(?={join_last})".format(
+            join_first="((\"|')?\+|^)",
+            join_last="(\+(\"|')?|\Z)",
             name="([a-z])",
             any="([\s\S]*?)",
-            placeholder="([A-Za-z0-9]*)",
+            placeholder="([A-Za-z0-9_]*)",
         ),
-        r"({\4},\5)",
+        r"\1({\4},\5)",
         script,
     )
     output = re.sub(
-        "{join_first}e\.{placeholder}{join_last}".format(
-            join_first="((\"|')\+)?",
-            join_last="(\+(\"|'))?",
-            placeholder="([A-Za-z0-9]*)",
+        "{join_first}[aent]\.{placeholder}(?={join_last})".format(
+            join_first="((\"|')?\+|^|,)",
+            join_last="(\+(\"|')?|\Z|\))",
+            placeholder="([A-Za-z0-9_]*)",
         ),
-        r"{\3}",
+        r"\1{\3}",
         output,
     )
 
-    return output.replace('"', "")
+    return output.replace('"', "").replace("+", "")

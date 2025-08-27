@@ -61,8 +61,7 @@ initial_output = json.loads(json_parser(initial_state))
 meta_data = search_js(parsed_script_list, ";window.__META_DATA__=")[0].after
 meta_output = json.loads(json_parser(meta_data))
 
-output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
-script_load_json = json.loads(read(f"{output_dir}{FileConf.SCRIPT_LOAD_JSON}"))
+script_load_json = json.loads(read(f"{FileConf.SCRIPT_LOAD_JSON}"))
 script_load_output = {}
 base_url = "https://abs.twimg.com/responsive-web/client-web/"
 for k, url in script_load_json.items():
@@ -148,7 +147,7 @@ items = {
     FileConf.FREEZE_OBJECT_JSON: json.dumps(freeze_object_output, **dumps_args),
     FileConf.INITIAL_STATE_JSON: json.dumps(initial_output, **dumps_args),
     FileConf.META_DATA_JSON: json.dumps(meta_output, **dumps_args),
-    FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
+    #FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
     FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
 }
