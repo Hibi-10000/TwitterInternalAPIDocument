@@ -2035,6 +2035,9 @@
       "responsive_web_grok_tweet_translation_limit": {
         "value": "5000"
       },
+      "responsive_web_grok_use_imagine_in_image_gen": {
+        "value": "false"
+      },
       "responsive_web_grok_use_new_layout": {
         "value": "true"
       },
@@ -3813,9 +3816,6 @@
       "web_video_playback_rate_enabled": {
         "value": "true"
       },
-      "web_video_player_size_cap_disabled": {
-        "value": "false"
-      },
       "web_video_prefetch_playlist_autoplay_disabled": {
         "value": "false"
       },
@@ -3853,7 +3853,7 @@
         "value": "false"
       },
       "xchat_enable_show_more_button": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enabled_inbox_pill_counts": {
         "value": "false"
@@ -5861,6 +5861,9 @@
         "responsive_web_grok_tweet_translation_limit": {
           "value": "5000"
         },
+        "responsive_web_grok_use_imagine_in_image_gen": {
+          "value": "false"
+        },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
         },
@@ -7639,9 +7642,6 @@
         "web_video_playback_rate_enabled": {
           "value": "true"
         },
-        "web_video_player_size_cap_disabled": {
-          "value": "false"
-        },
         "web_video_prefetch_playlist_autoplay_disabled": {
           "value": "false"
         },
@@ -7679,7 +7679,7 @@
           "value": "false"
         },
         "xchat_enable_show_more_button": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enabled_inbox_pill_counts": {
           "value": "false"
@@ -7760,7 +7760,7 @@
       "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
     },
     "debug": {},
-    "featureSetToken": "961f09de6e8ce4998514a66f0fc25eb2aa011d4d",
+    "featureSetToken": "c28570bc8cb904ccfaa197c96daf38a55ac4ba3f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7829,7 +7829,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175598289920247171",
+    "guestId": "175632921151971328",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
