@@ -720,7 +720,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | contentWidthsRedesign | s       |
 | wideTabBarWidth       | u       |
 | dmDrawerHeight        | c       |
-| dmDrawerWidth         | h       |
+| dmDrawerWidth         | D       |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -805,7 +805,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[h.SubmitRequest]:"!0",[h.CancelRequest]:"!0",[h.GuestCancelCountdown]:"!0",[h.GuestHangUp]:"!0",[h.InviteViewersToCallIn]:"!0",[h.ToggleCallIn]:"!0",[h.BeginCountdown]:"!0",[h.HostCancelCountdown]:"!0",[h.CompleteCountdown]:"!0",[h.HangUpOnGuest]:"!0",[h.BeginConnecting]:"!0",[h.GuestBroadcastingE...
+{[D.SubmitRequest]:"!0",[D.CancelRequest]:"!0",[D.GuestCancelCountdown]:"!0",[D.GuestHangUp]:"!0",[D.InviteViewersToCallIn]:"!0",[D.ToggleCallIn]:"!0",[D.BeginCountdown]:"!0",[D.HostCancelCountdown]:"!0",[D.CompleteCountdown]:"!0",[D.HangUpOnGuest]:"!0",[D.BeginConnecting]:"!0",[D.GuestBroadcastingE...
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -1476,19 +1476,19 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"REQUEST":`${"D"}/FETCH_PENDING_FOLLOWERS_REQUEST`,"SUCCESS":`${"D"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,"FAILURE":`${"D"}/FETCH_PENDING_FOLLOWERS_FAILURE`}
+{"REQUEST":`${"h"}/FETCH_PENDING_FOLLOWERS_REQUEST`,"SUCCESS":`${"h"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,"FAILURE":`${"h"}/FETCH_PENDING_FOLLOWERS_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"D"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,"SUCCESS":`${"D"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,"FAILURE":`${"D"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}
+{"REQUEST":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,"SUCCESS":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,"FAILURE":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"D"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"D"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"D"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}
+{"REQUEST":`${"h"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"h"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"h"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"D"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"D"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"D"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
+{"REQUEST":`${"h"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"h"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"h"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -2094,17 +2094,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | h().fc065ee4 |
+| superFollower | D().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'D.default', 'headline': 'h().e453f536', 'subtext': 'h().bd4cb7a0', 'actionLabel': 'h().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'h().c2637ef6'} |
+| superFollower | {'graphic': 'h.default', 'headline': 'D().e453f536', 'subtext': 'D().bd4cb7a0', 'actionLabel': 'D().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'D().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | h().efb17190 |
-| superFollowsYou | h().g57b5f6c |
-| superFollower   | h().a77a27c0 |
+| followsYou      | D().efb17190 |
+| superFollowsYou | D().g57b5f6c |
+| superFollower   | D().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -2401,27 +2401,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value               |
 |:-----------|:--------------------|
 | space1     | b.spaces.space1     |
-| space2     | D()                 |
-| space4     | D(b.spaces.space2)  |
-| space8     | D(b.spaces.space4)  |
-| space12    | D(b.spaces.space8)  |
-| space16    | D(b.spaces.space12) |
-| space20    | D(b.spaces.space16) |
-| space24    | D(b.spaces.space20) |
-| space28    | D(b.spaces.space24) |
-| space32    | D(b.spaces.space28) |
-| space36    | D(b.spaces.space32) |
-| space40    | D(b.spaces.space36) |
-| space48    | D(b.spaces.space40) |
-| space56    | D(b.spaces.space48) |
-| space64    | D(b.spaces.space56) |
-| space72    | D(b.spaces.space64) |
-| space80    | D(b.spaces.space72) |
+| space2     | h()                 |
+| space4     | h(b.spaces.space2)  |
+| space8     | h(b.spaces.space4)  |
+| space12    | h(b.spaces.space8)  |
+| space16    | h(b.spaces.space12) |
+| space20    | h(b.spaces.space16) |
+| space24    | h(b.spaces.space20) |
+| space28    | h(b.spaces.space24) |
+| space32    | h(b.spaces.space28) |
+| space36    | h(b.spaces.space32) |
+| space40    | h(b.spaces.space36) |
+| space48    | h(b.spaces.space40) |
+| space56    | h(b.spaces.space48) |
+| space64    | h(b.spaces.space56) |
+| space72    | h(b.spaces.space64) |
+| space80    | h(b.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
 | appBarHeight          | _         |
-| appBarHeightPx        | A         |
+| appBarHeightPx        | y         |
 | conversationLineWidth | f.space2  |
 | gutterHorizontal      | w.space16 |
 | gutterHorizontalPx    | f.space16 |
@@ -2431,7 +2431,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | t       |
-| baseFontSize        | y       |
+| baseFontSize        | A       |
 | borderRadii         | i       |
 | borderRadiiPx       | s       |
 | borderWidths        | c       |
@@ -2441,7 +2441,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | componentZIndices   | l       |
 | fontSizes           | k       |
 | fontSizesPx         | g       |
-| fontWeights         | h       |
+| fontWeights         | D       |
 | lineHeights         | p       |
 | lineHeightsPx       | M       |
 | scales              | a       |
