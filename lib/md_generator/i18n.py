@@ -48,9 +48,9 @@ def replace_ver(script):
             name="([a-z])",
             ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
-            any="([\s\S]*?)",
+            any="([^\(\)]*?)",
         ),
-        r"\1\2\4.\5+\6\10\11",
+        r"\1\2'('+\4.\5+','+\6+','+\7(\8)\9+')'\10\11",
         a,
     )
     c = re.sub(
