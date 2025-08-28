@@ -41,6 +41,18 @@ def replace_ver(script):
         "",
         script,
     )
+    ccc = re.sub(
+        "{reg}{join}{name}\({ins}\.{placeholder},{any},{any},{any},{any}\){join}{reg}".format(
+            reg="(\"|')?",
+            join="(\+)?",
+            name="([a-z])",
+            ins="([aent]|this\.props)",
+            placeholder="([A-Za-z0-9_]+)",
+            any="([^\(\)]*?)",
+        ),
+        r"\1\2'('+\4.\5+','+\6+','+\7+','+\8+','+\9+')'\10\11",
+        a,
+    )
     bb = re.sub(
         "{reg}{join}{name}\({ins}\.{placeholder},{any}\({any}\){any},{any},{any}\({any}\){any}\){join}{reg}".format(
             reg="(\"|')?",
@@ -51,7 +63,7 @@ def replace_ver(script):
             any="([^\(\)]*?)",
         ),
         r"\1\2'('+\4.\5+','+\6(\7)\8+','+\9+','+\10(\11)\12+')'\13\14",
-        a,
+        ccc,
     )
     cc = re.sub(
         "{reg}{join}{name}\({ins}\.{placeholder},{any},{any},{any}\){join}{reg}".format(
