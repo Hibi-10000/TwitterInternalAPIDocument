@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) su Twitter: \"{tweetText}\"",
   "b9184ae3": "Vedi il Tweet di {fullName} (@{screenName})",
   "e44c7ea1": "{date} - Vedi il Tweet di {fullName} (@{screenName})",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} Mi piace. {retweetCount} Retweet. {replyCount} rispost({replyCount},a,e).",
   "ad666301": "{fullName} su Twitter",
   "g132f681": "@{screenName} ha twittato...",

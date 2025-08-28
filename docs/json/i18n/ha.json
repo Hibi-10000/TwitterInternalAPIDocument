@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) a kan Twitter: \"{tweetText}\"",
   "b9184ae3": "Ga Tuwitin (@{screenName}) na {fullName}",
   "e44c7ea1": "{date} - Duba Tuwitin (@{screenName}) na {fullName}",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} so. {retweetCount} tuwit({retweetCount},,oc)i da aka sake yi. {replyCount} ams({replyCount},a,oshi).",
   "ad666301": "{fullName} a Twitter",
   "g132f681": "@{screenName} ya Yi Tweet...",

@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) Twitter'da: \"{tweetText}\"",
   "b9184ae3": "{fullName} adlı kullanıcının (@{screenName}) Tweetini gör",
   "e44c7ea1": "{date} - {fullName} adlı kullanıcının (@{screenName}) Tweetini gör",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} beğeni. {retweetCount} Retweet. {replyCount} yanıt.",
   "ad666301": "{fullName} Twitter'da",
   "g132f681": "@{screenName} Tweetledi...",

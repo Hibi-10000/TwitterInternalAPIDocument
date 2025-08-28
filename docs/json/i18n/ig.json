@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) na Twitter: \"{tweetText}\"",
   "b9184ae3": "Lelee {fullName} (@{screenName}) Twiit",
   "e44c7ea1": "{date} -Lelee {fullName} (@{screenName}) Twiit",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} mmasị gasị. {retweetCount} ụmụ twiit ezipụgharịrị. {replyCount} nzaghachi gasị.",
   "ad666301": "{fullName} na Twitter",
   "g132f681": "@{screenName} Zipụrụ Twiit...",

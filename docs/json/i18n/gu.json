@@ -3998,7 +3998,7 @@
   "aba12f5d": "Twitter પર {fullName} (@{screenName}): \"{tweetText}\"",
   "b9184ae3": "{fullName}ની (@ {screenName}) ટ્વીટ જુઓ",
   "e44c7ea1": "{date} - {fullName}ની (@{screenName}) ટ્વીટ જુઓ",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} લાઈક. {retweetCount} પુનટ્વીટ. {replyCount} પ્રત્યુતર.",
   "ad666301": "Twitter પર {fullName}",
   "g132f681": "@{screenName}એ ટ્વીટ કરી...",

@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) บน Twitter: \"{tweetText}\"",
   "b9184ae3": "ดูทวีตของ {fullName} (@{screenName})",
   "e44c7ea1": "{date} - ดูทวีตของ {fullName} (@{screenName})",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} ความชอบ. {retweetCount} รีทวีต {replyCount} การตอบกลับ",
   "ad666301": "{fullName} บนทวิตเตอร์",
   "g132f681": "@{screenName} ทวีต...",

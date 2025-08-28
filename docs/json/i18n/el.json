@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) στο Twitter: \"{tweetText}\"",
   "b9184ae3": "Δείτε το Tweet του χρήστη {fullName} (@{screenName})",
   "e44c7ea1": "{date} - Δείτε το Tweet του χρήστη {fullName} (@{screenName})",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} επισ({likeCount},ήμανση,ημάνσεις) \"Μου αρέσει\". {retweetCount} retweet. {replyCount} απ({replyCount},άντηση,αντήσεις).",
   "ad666301": "Ο χρήστης {fullName} στο Twitter",
   "g132f681": "Ο χρήστης @{screenName} δημοσίευσε το Tweet...",

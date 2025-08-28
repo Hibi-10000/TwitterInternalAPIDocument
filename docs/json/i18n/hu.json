@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) a Twitter platformon: „{tweetText}”",
   "b9184ae3": "Nézd meg {fullName} (@{screenName}) Tweetjét",
   "e44c7ea1": "{date} – Nézd meg {fullName} (@{screenName}) Tweetjét",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} kedvelés. {retweetCount} Retweet. {replyCount} válasz.",
   "ad666301": "{fullName} a Twitteren",
   "g132f681": "@{screenName} Tweetelt...",

@@ -3998,7 +3998,7 @@
   "aba12f5d": "Twitter 上的 {fullName} (@{screenName})：“{tweetText}”",
   "b9184ae3": "查看 {fullName} (@{screenName}) 的推文",
   "e44c7ea1": "{date} - 查看 {fullName} (@{screenName}) 的推文",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}：{likeCount} 点赞。{retweetCount} 转推。{replyCount} 回复。",
   "ad666301": "登录 Twitter，关注{fullName}",
   "g132f681": "@{screenName} 发布了推文...",

@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) در Twitter: «{tweetText}»",
   "b9184ae3": "توییت {fullName} (@{screenName}) را ببینید",
   "e44c7ea1": "{date} - توییت {fullName} (@{screenName}) را ببینید",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} پسند. {retweetCount} بازتوییت. {replyCount} پاسخ.",
   "ad666301": "{fullName} در توییتر",
   "g132f681": "@{screenName} توییت کرد…",

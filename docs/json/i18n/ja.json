@@ -3998,7 +3998,7 @@
   "aba12f5d": "Twitterユーザーの{fullName}さん（@{screenName}）: 「{tweetText}」",
   "b9184ae3": "{fullName}さん（@{screenName}）のツイートを見る",
   "e44c7ea1": "{date} - {fullName}さん（@{screenName}）のツイートを見る",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} 件のいいね. {retweetCount} 件のリツイート. {replyCount} 件の返信.",
   "ad666301": "{fullName}さんはTwitterを使っています",
   "g132f681": "@{screenName}さんがツイートしました",

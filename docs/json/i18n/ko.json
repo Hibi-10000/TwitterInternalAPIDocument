@@ -3998,7 +3998,7 @@
   "aba12f5d": "Twitter의 {fullName} 님(@{screenName}): \"{tweetText}\"",
   "b9184ae3": "{fullName} 님(@{screenName})의 트윗 보기",
   "e44c7ea1": "{date} - {fullName}(@{screenName}) 님의 트윗 보기",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} 마음에 들어요. {retweetCount} 리트윗. {replyCount} 답글.",
   "ad666301": "트위터에서 즐기는 {fullName}",
   "g132f681": "@{screenName} 님이 트윗했습니다",

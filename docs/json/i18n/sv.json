@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) på Twitter: {tweetText}",
   "b9184ae3": "Se tweeten av {fullName} (@{screenName})",
   "e44c7ea1": "{date} – Se tweeten av {fullName} (@{screenName})",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} gilla-markering({likeCount},,ar). {retweetCount} Retweet({retweetCount},,s). {replyCount} svar.",
   "ad666301": "{fullName} på Twitter",
   "g132f681": "@{screenName} tweetade …",

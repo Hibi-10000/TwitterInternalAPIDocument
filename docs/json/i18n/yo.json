@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) lóri Twitter. \"{tweetText}\"",
   "b9184ae3": "Wo Twíìtì (@{screenName}) {fullName}",
   "e44c7ea1": "{date} - Wo Twíìtì (@{screenName}) {fullName}",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} àwọn ìfẹ́ràn. {retweetCount} àwọn rìtíwìtì. {replyCount} àwọn èsì.",
   "ad666301": "{fullName} lóri Twitter ",
   "g132f681": "@{screenName} Twíìtì...",

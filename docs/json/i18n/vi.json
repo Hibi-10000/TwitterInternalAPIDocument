@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) ở trên Twitter: \"{tweetText}\"",
   "b9184ae3": "Xem Tweet của {fullName} (@{screenName})",
   "e44c7ea1": "{date} - Xem Tweet của {fullName} (@{screenName}) ",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} lượt thích. {retweetCount} lượt Tweet lại. {replyCount} lượt trả lời.",
   "ad666301": "{fullName} trên Twitter",
   "g132f681": "@{screenName} đã Tweet...",

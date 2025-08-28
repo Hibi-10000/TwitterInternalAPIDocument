@@ -3998,7 +3998,7 @@
   "aba12f5d": "{fullName} (@{screenName}) Twitter पर: \"{tweetText}\"",
   "b9184ae3": "{fullName} का (@{screenName}) ट्वीट देखें",
   "e44c7ea1": "{date} - {fullName} का (@{screenName}) ट्वीट देखें",
-  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like{likeCount}.",
+  "d0e26387": "{date}: \"{tweetText}\". {likeCount} like({likeCount},,s). {retweetCount} retweet({retweetCount},,s). {replyCount} repl({replyCount},y,ies).",
   "cd869707": "{date}: {likeCount} पसंद. {retweetCount} रीट्वीट({retweetCount},,्स). {replyCount} जवाब.",
   "ad666301": "{fullName} Twitter पर",
   "g132f681": "@{screenName} ने ट्वीट किया...",
