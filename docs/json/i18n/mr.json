@@ -764,7 +764,7 @@
   "a0e0a52c": "{offendingRule}",
   "a3484d22": "बरोबरीचा (टाय)",
   "aab2efa9": "विजेता {winner}",
-  "ba21c289": "स्कोअर कार्ड, {gameCategory}, {gameState}, {accessibleGameClockPeriod}, {teamOneLabel},{teamTwoLabel}",
+  "ba21c289": "स्कोअर कार्ड, {gameCategory}, {gameState}, {accessibleGameClockPeriod}, {teamOneLabel},',',{teamTwoLabel}",
   "f178e38c": "आगामी",
   "b6da6b02": "प्रत्यक्ष",
   "i9f615c8": "अंतिम",

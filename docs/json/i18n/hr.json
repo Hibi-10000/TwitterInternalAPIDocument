@@ -4955,7 +4955,7 @@
   "d925a4f9": "Preostal({count},e su još {formattedCount} minute,a je još {formattedCount} minuta,o je još {formattedCount} minuta)",
   "ib15cddb": "Preosta({count},la su još {formattedCount} sata,o je još {formattedCount} sat,lo je još {formattedCount} sati)",
   "db9ed19f": "Preosta({count},la su još {formattedCount} dana,o je još {formattedCount} dan,lo je još {formattedCount} dana)",
-  "e1ebcecb": "{formattedDays} dan({days},a,(a)) Preosta({hours},la su još {formattedHours} sata,o je još {formattedHours} sat,lo je još {formattedHours} sati)",
+  "e1ebcecb": "{formattedDays} dan({days},a,,(a)) Preosta({hours},la su još {formattedHours} sata,o je još {formattedHours} sat,lo je još {formattedHours} sati)",
   "cc1da1fd": "{formattedHours} sat({hours},a,,i) Preostal({mins},e su još {formattedMins} minute,a je još {formattedMins} minuta,o je još {formattedMins} minuta)",
   "f89a5d60": "Voditelj(ica)",
   "ce2cfb36": "Samo za pretplatnike",

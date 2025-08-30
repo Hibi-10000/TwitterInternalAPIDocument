@@ -872,6 +872,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | updateAddress                 | updateAddress                 |
 | updatePin                     | updatePin                     |
 | forgotPin                     | forgotPin                     |
+| recoverAccess                 | recoverAccess                 |
 | checkPendingTransactions      | checkPendingTransactions      |
 | challenge                     | challenge                     |
 | accountRouting                | accountRouting                |
@@ -894,7 +895,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[fe.onboarding]:{"path":`${"we"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0","allowPublicKeyCredsWrite":"!0"},[fe.upgradeToKycVerified]:{"path":`${"we"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[fe.upgradeToKycDo...
+{[we.onboarding]:{"path":`${"ge"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0","allowPublicKeyCredsWrite":"!0"},[we.upgradeToKycVerified]:{"path":`${"ge"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[we.upgradeToKycDo...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -914,6 +915,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | transaction                | transaction                |
 | preference                 | preference                 |
 | forgotPin                  | forgotPin                  |
+| recoverAccess              | recoverAccess              |
 | activateCard               | activateCard               |
 | changeCardPin              | changeCardPin              |
 | confirmUnrecognisedPayment | confirmUnrecognisedPayment |
@@ -1555,7 +1557,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant         | value          |
 |:-----------------|:---------------|
-| fetchStatus      | y.ZP.NONE      |
+| fetchStatus      | k.ZP.NONE      |
 | selectedTimeline | r.oO           |
 | sort             | r.UO.RELEVANCE |
 | timelines        | []             |
@@ -2431,7 +2433,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | t       |
-| baseFontSize        | k       |
+| baseFontSize        | y       |
 | borderRadii         | i       |
 | borderRadiiPx       | s       |
 | borderWidths        | c       |
@@ -2439,7 +2441,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | n       |
 | componentDimensions | v       |
 | componentZIndices   | l       |
-| fontSizes           | y       |
+| fontSizes           | k       |
 | fontSizesPx         | g       |
 | fontWeights         | h       |
 | lineHeights         | p       |

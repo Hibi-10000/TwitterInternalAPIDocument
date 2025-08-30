@@ -5568,7 +5568,7 @@
   "d9ef8fbb": "Ha csak a @felhasználóneved szeretnéd módosítani, akkor nem kell inaktiválnod a felhasználói fiókodat. A {0} részen szerkesztheted.",
   "g4dcd62b": "Ha egy másik Twitter-fiókkal szeretnéd használni a @felhasználónevedet vagy e-mail-címedet, akkor ennek a felhasználói fióknak az inaktiválása előtt {0}.",
   "b44893f9": "Ha le szeretnéd tölteni a {0}, akkor a felhasználói fiókod inaktiválása előtt el kell küldened a kérésedet és a letöltést is végre kell hajtanod. Az adatletöltéshez szükséges hivatkozást nem tudjuk elküldeni inaktivált felhasználói fiókoknak.",
-  "e9dec56f": "Igazolod, hogy a megadott születésnap () helyes. Ha nem az, akkor az hatással lehet a felhasználói fiókodra.",
+  "e9dec56f": "Igazolod, hogy a megadott születésnap (,) helyes. Ha nem az, akkor az hatással lehet a felhasználói fiókodra.",
   "d9ebec8d": "A Twitter az életkorod alapján szabja személyre a felhasználói élményt, beleértve a hirdetéseket is, az {0} leírtak szerint.",
   "fad15501": "Beállíthatod, hogy ki láthatja a születési dátumodat a Twitteren. ",
   "eb96a831": "Ezek a szűrők nem befolyásolják az általad követett felhasználókkal kapcsolatos értesítéseket. ",
