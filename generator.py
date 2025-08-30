@@ -32,7 +32,7 @@ TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 CACHE = os.environ.get("CACHE", "False") == "True"
 GRAPHQL_CACHE = os.environ.get("GRAPHQL_CACHE", "False") == "True"
-READ_SCRIPT_JSON = os.environ.get("READ_SCRIPT_JSON", "False") == "True"
+READ_SCRIPT_JSON = os.environ.get("READ_SCRIPT_JSON", "True") == "True"
 TIMEOUT = 30
 
 coloredlogs.install(
