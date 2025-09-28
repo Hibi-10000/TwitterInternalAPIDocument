@@ -32,7 +32,7 @@ TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 CACHE = os.environ.get("CACHE", "False") == "True"
 GRAPHQL_CACHE = os.environ.get("GRAPHQL_CACHE", "False") == "True"
-READ_SCRIPT_JSON = os.environ.get("READ_SCRIPT_JSON", "False") == "True"
+READ_SCRIPT_JSON = os.environ.get("READ_SCRIPT_JSON", "True") == "True"
 TIMEOUT = 30
 
 coloredlogs.install(
@@ -107,15 +107,15 @@ logging.info("script decode is completed")
 
 # === x-client-transaction-id ===
 
-ondemand = script_load_output["ondemand.s"]
-ondemand_response = twitter.session.get(
-    ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT
-).text
-INDICES_REGEX = re.compile(
-    r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
-)
-ondemand_index = INDICES_REGEX.findall(ondemand_response)
-transaction_output = {"index": [int(i[1]) for i in ondemand_index]}
+#ondemand = script_load_output["ondemand.s"]
+#ondemand_response = twitter.session.get(
+#    ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+#).text
+#INDICES_REGEX = re.compile(
+#    r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
+#)
+#ondemand_index = INDICES_REGEX.findall(ondemand_response)
+#transaction_output = {"index": [int(i[1]) for i in ondemand_index]}
 
 # === Road ===
 
@@ -222,7 +222,7 @@ items = {
     FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
     FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
-    FileConf.TRANSLATION_JSON: json.dumps(transaction_output, **dumps_args),
+    #FileConf.TRANSLATION_JSON: json.dumps(transaction_output, **dumps_args),
 }
 for k, o in i18n_output.items():
     items.update({f"json/{k}.json": json.dumps(o, **dumps_args)})

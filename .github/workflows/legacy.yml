@@ -1,10 +1,10 @@
-name: Generator
+name: Generator (MoreLegacy)
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - develop
+      - morelegacy-twitter
 
 permissions:
   contents: write
@@ -40,13 +40,13 @@ jobs:
         run: pip install -r requirements.txt
       - name: Get Legacy File
         run: |
-          git fetch origin c150806085e7d482a366da38c4d036b5ac12f28e
-          git checkout c150806085e7d482a366da38c4d036b5ac12f28e -- docs/json/ScriptLoadJson.json
+          git fetch origin d4aa08362ae1ef6ff39e198909c4259292770f41
+          git checkout d4aa08362ae1ef6ff39e198909c4259292770f41 -- docs/json/ScriptLoadJson.json
       - name: Run Python
         run: python generator.py
         env:
           ENV: "GithubAction"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
-          REF_BRANCH: "legacy-twitter"
+          REF_BRANCH: "morelegacy-twitter"
           READ_SCRIPT_JSON: "True"
